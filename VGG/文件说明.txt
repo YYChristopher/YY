@@ -1,0 +1,10 @@
+VGG为真假图像鉴别部分的数据集和文件。
+load_datasets为数据导入的类以及函数。该py文件需要和其他ipynb文件在同一目录下。因为其他ipynb文件需要调用其中的数据导入及预处理的函数。
+所有的ipynb文件均为VGG的训练和测试代码。文件对应PPT第49页7种不同情形下的训练和测试代码。
+
+
+VGG所有数据集datasets为本人在VGG实验中使用的数据集。包含real和fake两个数据集。real即为DCGan实验的prettyface数据集，fake为本人DCGan和网上找的StyleGan
+生成人脸混合的数据集。
+在这里由于文件比较大，无法上传到超星平台。
+具体的附带数据集的文件可以前往百度网盘下载，百度网盘链接为：https://pan.baidu.com/s/1YtWl2HaM2KuFZWHeIyy4pg?pwd=dsba  提取码：dsba
+

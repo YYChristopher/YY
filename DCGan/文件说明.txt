@@ -1,0 +1,16 @@
+DCGan文件夹为虚假图像生成部分的数据集和文件。
+zip.ipynb为将datasets.zip文件（数据集原来为zip压缩文件）解压的代码。
+load_datasets为数据导入的类以及函数。该py文件需要和其他ipynb文件在同一目录下。因为其他ipynb文件需要调用其中的数据导入及预处理的函数。
+trial1-trial8分别为PPT第35页8种不同情形下的训练和测试代码，按照表格从上到下的顺序依次为1-8的情况。
+trial9为效果最好的第五种模型进行充分训练的代码。
+
+下面的文件夹为本人所运用的数据集以及本人训练保存的模型参数以及训练过程中每1000个epoch迭代的图像以及最后生成的500张图像结果。
+在这里由于文件比较大，无法上传到超星平台。
+可以前往百度网盘下载，百度网盘链接为：链接：https://pan.baidu.com/s/1YtWl2HaM2KuFZWHeIyy4pg?pwd=dsba 提取码：dsba 
+--来自百度网盘超级会员V3的分享
+checkpoint9文件夹保存着trial9.ipynb中进行训练的模型参数。
+result_image9文件夹中为trial9训练过程中每1000个epoch记录下的图像结果。
+test_from_dir9文件夹为trial9的测试生成的500张图像结果。
+datasets为本人采用的prettyface数据集。
+
+本人用于DCGan生成的数据集也可以前往网站：seeprettyface.com 进行下载。该网站链接位于本人PPT第八页。
